@@ -1,0 +1,31 @@
+img {
+  height: 300px;
+}
+.card {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+.fab {
+  padding: 5px;
+  font-size: 28px;
+}
+.fab:hover {
+  color: #e91e63;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  border-color: dodgerblue;
+  background: white;
+  color: dodgerblue;
+}
+@media (max-width: 380px) {
+  .card {
+    width: auto;
+  }
+}
